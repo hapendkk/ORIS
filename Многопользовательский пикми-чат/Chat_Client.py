@@ -10,7 +10,7 @@ PORT = 12345
 class ChatClient:
     def __init__(self, master):
         self.master = master
-        master.title("Python Chat Client")
+        master.title("Пикми-чатик Питон")
         master.protocol("WM_DELETE_WINDOW", self.on_closing)
 
         self.client_socket = None
